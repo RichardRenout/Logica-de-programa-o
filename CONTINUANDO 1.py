@@ -1,0 +1,38 @@
+import os
+os.system('cls')
+
+print('\nSolicitando Dados')
+
+primeira_nota = float(input('\nDigite sua primeira nota: '))
+segunda_nota = float(input('Digite sua segunda nota: '))
+
+media = (primeira_nota + segunda_nota) / 2
+
+print('\nMedia: ',media)
+
+n1 = float(input('\nDigite seu primeiro numero: '))
+n2 = float(input('Digite seu segundo numero: '))
+
+if n1 > n2:
+    print('\nO maior numero é: ',n1)
+else:
+    print('\nO maior numero é: ',n2)
+if n1 < n2:
+    print('O menor numero é: ',n1)
+else:
+    print('O menor numero é: ',n2)
+
+if n1 == n2:
+    print('\nOs numeros são iguais')
+else:
+    print('\nNão são iguais')
+
+soma = (n1+n2)
+multiplicacao = (n1*n2)
+subtracao = (n1-n2)
+divisao = (n1/n2)
+
+print('\nSoma: ',soma)
+print('Subtração: ',subtracao)
+print('Multiplicação: ',multiplicacao)
+print('Divisão: ',divisao)

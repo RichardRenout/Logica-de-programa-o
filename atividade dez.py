@@ -8,7 +8,6 @@ n2 = int(input('Digite o segundo_numero: '))
 
 print('\nPrimeiro numero: ',n1)
 print('Segundo numero: ',n2)
-print('Terceiro numero: ',n3)
 
 if n1 > n2:
     print('\nO numero maior é: ',n1)

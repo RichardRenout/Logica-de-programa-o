@@ -6,4 +6,6 @@ os.system('cls')
 numero = int(input('Digite um numero: '))
 
 if numero >= 10 and numero <= 20:
-    print('Está entre os intervalos')
+    print('Está entre os intervalo')
+else:
+    print('Não está entre o intervalo')
